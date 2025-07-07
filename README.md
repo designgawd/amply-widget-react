@@ -267,8 +267,8 @@ To run the demo application:
 
 ```bash
 git clone
-npm install
 cd amply-widget-react
+npm install
 npm run dev
 ```
 

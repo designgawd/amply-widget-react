@@ -213,7 +213,7 @@ To run the demo application:
 
 ```bash
 git clone
-pnmp install
+npm install
 cd amply-widget-react
 npm run dev
 ```

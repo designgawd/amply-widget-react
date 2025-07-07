@@ -2,6 +2,10 @@
 
 A React component conversion of the original JavaScript/jQuery Amply donation widget module from [giveamply.com](https://giveamply.com/widget-examples).
 
+![Amply Donation Widget](./public/openart-image_Ae-GMItV_1751918178614_raw.jpg)
+
+
+
 ## Overview
 
 This React component provides all the functionality of the original Amply widget with modern React patterns, including:
@@ -208,6 +212,8 @@ This React component maintains all functionality of the original JavaScript/jQue
 To run the demo application:
 
 ```bash
+git clone
+pnmp install
 cd amply-widget-react
 npm run dev
 ```

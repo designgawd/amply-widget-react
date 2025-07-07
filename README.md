@@ -207,6 +207,60 @@ This React component maintains all functionality of the original JavaScript/jQue
 6. **Easier Integration**: Standard React component patterns
 7. **Maintainable Code**: Cleaner, more readable codebase
 
+## Mock Data for Demo
+
+```bash
+  // Mock company data based on what I observed from the original widget
+  const mockCompanies = [
+    { id: 1, name: "Microsoft", domain: "microsoft.com", hasMatching: true, matchRatio: "1:1", maxAmount: 15000 },
+    { id: 2, name: "Microsoft Canada", domain: "microsoft.com", hasMatching: true, matchRatio: "1:1", maxAmount: 15000 },
+    { id: 3, name: "Apple Inc.", domain: "apple.com", hasMatching: true, matchRatio: "1:1", maxAmount: 10000 },
+    { id: 4, name: "Google LLC", domain: "google.com", hasMatching: true, matchRatio: "1:1", maxAmount: 12000 },
+    { id: 5, name: "Amazon.com Inc.", domain: "amazon.com", hasMatching: true, matchRatio: "1:1", maxAmount: 8000 },
+    { id: 6, name: "Meta Platforms Inc.", domain: "meta.com", hasMatching: true, matchRatio: "1:1", maxAmount: 10000 },
+    { id: 7, name: "Tesla Inc.", domain: "tesla.com", hasMatching: false },
+    { id: 8, name: "Netflix Inc.", domain: "netflix.com", hasMatching: true, matchRatio: "1:1", maxAmount: 5000 },
+    { id: 9, name: "Adobe Inc.", domain: "adobe.com", hasMatching: true, matchRatio: "1:1", maxAmount: 7500 },
+    { id: 10, name: "Salesforce Inc.", domain: "salesforce.com", hasMatching: true, matchRatio: "1:1", maxAmount: 10000 },
+    { id: 11, name: "Oracle Corporation", domain: "oracle.com", hasMatching: true, matchRatio: "1:1", maxAmount: 8000 },
+    { id: 12, name: "IBM Corporation", domain: "ibm.com", hasMatching: true, matchRatio: "1:1", maxAmount: 12000 },
+    { id: 13, name: "Intel Corporation", domain: "intel.com", hasMatching: true, matchRatio: "1:1", maxAmount: 10000 },
+    { id: 14, name: "Cisco Systems Inc.", domain: "cisco.com", hasMatching: true, matchRatio: "1:1", maxAmount: 8000 },
+    { id: 15, name: "Walmart", domain: "walmart.com", hasMatching: false },
+    { id: 16, name: "Walmart Supply Chain", domain: "walmart.com", hasMatching: false },
+    { id: 17, name: "JPMorgan Chase & Co.", domain: "jpmorganchase.com", hasMatching: true, matchRatio: "1:1", maxAmount: 15000 },
+    { id: 18, name: "Bank of America Corp.", domain: "bankofamerica.com", hasMatching: true, matchRatio: "1:1", maxAmount: 12000 },
+    { id: 19, name: "Wells Fargo & Company", domain: "wellsfargo.com", hasMatching: true, matchRatio: "1:1", maxAmount: 10000 },
+    { id: 20, name: "Goldman Sachs Group Inc.", domain: "goldmansachs.com", hasMatching: true, matchRatio: "1:1", maxAmount: 20000 },
+    { id: 21, name: "Morgan Stanley", domain: "morganstanley.com", hasMatching: true, matchRatio: "1:1", maxAmount: 15000 },
+    { id: 22, name: "Johnson & Johnson", domain: "jnj.com", hasMatching: true, matchRatio: "1:1", maxAmount: 8000 },
+    { id: 23, name: "Procter & Gamble Co.", domain: "pg.com", hasMatching: true, matchRatio: "1:1", maxAmount: 7500 },
+    { id: 24, name: "Coca-Cola Company", domain: "coca-cola.com", hasMatching: true, matchRatio: "1:1", maxAmount: 5000 },
+    { id: 25, name: "PepsiCo Inc.", domain: "pepsico.com", hasMatching: true, matchRatio: "1:1", maxAmount: 5000 },
+    { id: 26, name: "McDonald's Corporation", domain: "mcdonalds.com", hasMatching: false },
+    { id: 27, name: "Walt Disney Company", domain: "disney.com", hasMatching: true, matchRatio: "1:1", maxAmount: 10000 },
+    { id: 28, name: "Nike Inc.", domain: "nike.com", hasMatching: true, matchRatio: "1:1", maxAmount: 7500 },
+    { id: 29, name: "Starbucks Corporation", domain: "starbucks.com", hasMatching: false },
+    { id: 30, name: "Home Depot Inc.", domain: "homedepot.com", hasMatching: false },
+    { id: 31, name: "Target Corporation", domain: "target.com", hasMatching: false },
+    // Adding companies that start with "Wal" for testing
+    { id: 32, name: "Wal-Martsams Clubs", domain: "walmart.com", hasMatching: false },
+    { id: 33, name: "Walden Savings Bank", domain: "waldensavings.com", hasMatching: true, matchRatio: "1:1", maxAmount: 2500 },
+    { id: 34, name: "Waldo Real Estate", domain: "waldorealestate.com", hasMatching: false },
+    { id: 35, name: "Waldo's Sports Center", domain: "waldosports.com", hasMatching: false },
+    { id: 36, name: "Waldorf Fd", domain: "waldorffd.com", hasMatching: false },
+    // Adding companies that start with "mart" for testing
+    { id: 37, name: "Martha Ken Duff", domain: "marthakenduff.com", hasMatching: false },
+    { id: 38, name: "Martha's Vineyard Savings Bank", domain: "mvbank.com", hasMatching: true, matchRatio: "1:1", maxAmount: 1000 },
+    { id: 39, name: "Martin", domain: "martin.com", hasMatching: false },
+    { id: 40, name: "Martin County Florida", domain: "martin.fl.us", hasMatching: false },
+    { id: 41, name: "Martin Guitar", domain: "martinguitar.com", hasMatching: false },
+    { id: 42, name: "Martin Logan Ltd", domain: "martinlogan.com", hasMatching: false },
+    // New company added for demonstration
+    { id: 43, name: "Acme Corporation", domain: "acme.com", hasMatching: true, matchRatio: "2:1", maxAmount: 5000 }
+  ];
+```
+
 ## Development
 
 To run the demo application:
